@@ -1249,5 +1249,5 @@ async def level_up(users, user, channel):
         users[user.id]['level']= lvl_end
 
 # später für heroku client.run(viel azhelen) rausnehmen komplett und den Token in secrets bei heroku eingeben. Davor noch das # vor client.run(os.getenv('Token')) wegmachen
-# client.run(os.getenv('Token'))
-client.run('NzAyMTg1OTgxNzc5OTAyNTg0.Xp8Xrg.5x8dfdk1WBWD0pp506pm3__pe2s')
+client.run(os.getenv('Token'))
+
