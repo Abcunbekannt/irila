@@ -39,7 +39,8 @@ ticket_chat_channel_name3 = "ticket-support"
 filesize = os.path.getsize("next244.txt")
 
 blacklistwords = ['arsch', 'anal', 'hure', 'anal', 'ficken']
-os.chdir(r'C:\pythonprojects\test001\21.4')
+
+#os.chdir(r'C:\pythonprojects\test001\21.4')
 
 
 @client.event
