@@ -36,7 +36,7 @@ suggest_chat_channel_name2 = "vorschläge"
 ticket_chat_channel_name = "ticket-erstellen"
 ticket_chat_channel_name2 = "create-ticket"
 ticket_chat_channel_name3 = "ticket-support"
-filesize = os.getsize("next244.txt")
+filesize = os.path.getsize("next244.txt")
 
 blacklistwords = ['arsch', 'anal', 'hure', 'anal', 'ficken']
 os.chdir(r'C:\pythonprojects\test001\21.4')
